@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T13:02:35.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GNqddBUM98mkttbXAwQH" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T13:02:47.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="g1jEpDAh29SZ3WBDIFfa" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="426" dy="242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -379,13 +379,6 @@
         <mxCell id="9vfDpCamMeJXF4R310ez-59" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="847.5" y="2097" width="10" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-60" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1">
-          <mxGeometry x="0.5433" relative="1" as="geometry">
-            <mxPoint x="535" y="2141" as="sourcePoint" />
-            <mxPoint x="852.5" y="2141.15" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-61" value="查询Running Job的&#xa;Init Task" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.013;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9vfDpCamMeJXF4R310ez-57">
           <mxGeometry x="0.0618" relative="1" as="geometry">
             <mxPoint x="700" y="1990" as="sourcePoint" />
@@ -403,29 +396,8 @@
         <mxCell id="9vfDpCamMeJXF4R310ez-63" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="847.5" y="2056" width="10" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-64" value="Job启动投票" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.4688" relative="1" as="geometry">
-            <mxPoint x="534.2600000000002" y="2096" as="sourcePoint" />
-            <mxPoint x="855.5" y="2096.2" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-65" value="如果投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;启动Job" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="857.5" y="2100" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-66" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1">
-          <mxGeometry x="0.4929" relative="1" as="geometry">
-            <mxPoint x="533" y="2070" as="sourcePoint" />
-            <mxPoint x="850.5" y="2070.15" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-67" value="查询Job详细信息&#xa;（包含启动投票信息）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.4688" relative="1" as="geometry">
-            <mxPoint x="533.2600000000002" y="2056" as="sourcePoint" />
-            <mxPoint x="854.5" y="2056.2" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-68" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="847.5" y="1611" width="10" height="44" as="geometry" />
