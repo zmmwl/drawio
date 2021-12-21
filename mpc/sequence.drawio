@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T13:00:39.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="B6V73LcJO2vgHL3onAHc" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T03:33:13.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="L26THW9U2MigkAbvVr0E" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="619" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="871" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,17 +21,18 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="108" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="52" y="118" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.933;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.058;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" source="UTqNRsS9b9yTs4x2D8Qa-16" target="UTqNRsS9b9yTs4x2D8Qa-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-17" value="根据申请生成&lt;br&gt;Job和Task DAG" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.933;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.058;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" source="UTqNRsS9b9yTs4x2D8Qa-16" target="UTqNRsS9b9yTs4x2D8Qa-16" edge="1">
+          <mxGeometry x="0.1908" y="44" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="338" as="sourcePoint" />
             <mxPoint x="310" y="288" as="targetPoint" />
             <Array as="points">
               <mxPoint x="80" y="98" />
               <mxPoint x="90" y="158" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="创建Job" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
@@ -40,19 +41,19 @@
             <mxPoint x="345" y="190.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-1" value="计算调度" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-1" value="计算调度" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="80" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-3" value="计算集群" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-3" value="计算集群" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="80" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-13" value="目录链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-13" value="目录链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="80" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-14" value="隐私计算链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-14" value="隐私计算链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="80" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-15" value="申请上链" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.012;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="UTqNRsS9b9yTs4x2D8Qa-15" value="申请上链" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.012;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.8374" relative="1" as="geometry">
             <mxPoint x="175.1199999999999" y="158.8499999999999" as="sourcePoint" />
             <mxPoint x="850" y="159" as="targetPoint" />
