@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T09:07:38.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dWYMCLN6NgEI3BfM1l82" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T09:21:44.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eMNJbBqM4jTIDPY0GJwh" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1525" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="871" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9vfDpCamMeJXF4R310ez-13" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;isLoopStandard=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="750" width="540" height="370" as="geometry" />
+        <mxCell id="9vfDpCamMeJXF4R310ez-13" value="Job Scheduler" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;isLoopStandard=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="439" y="750" width="641" height="290" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="目录管理&#xa;交易管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="100" height="1120" as="geometry" />
@@ -83,6 +83,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="UTqNRsS9b9yTs4x2D8Qa-1">
+          <mxGeometry x="55" y="720" width="10" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="UTqNRsS9b9yTs4x2D8Qa-3" value="计算集群" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="80" width="100" height="1120" as="geometry" />
         </mxCell>
@@ -115,6 +118,19 @@
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
           <mxGeometry x="47.5" y="510" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
+          <mxGeometry x="47.5" y="730" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
+          <mxGeometry x="47.5" y="837" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-29" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
+          <mxGeometry x="0.5433" relative="1" as="geometry">
+            <mxPoint x="-265" y="881" as="sourcePoint" />
+            <mxPoint x="52.5" y="881.1500000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UTqNRsS9b9yTs4x2D8Qa-14" value="隐私计算链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="80" width="115" height="1120" as="geometry" />
@@ -196,6 +212,47 @@
           <mxGeometry x="0.7656" relative="1" as="geometry">
             <mxPoint x="349.9999999999998" y="660.0150000000001" as="sourcePoint" />
             <mxPoint x="1007" y="660.0150000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-15" value="查询审批通过待执行的Job" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="0.4688" relative="1" as="geometry">
+            <mxPoint x="535" y="810" as="sourcePoint" />
+            <mxPoint x="855" y="810" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-17" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+          <mxGeometry x="0.5433" relative="1" as="geometry">
+            <mxPoint x="535" y="830" as="sourcePoint" />
+            <mxPoint x="852.5" y="830.1500000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-23" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="847.5" y="876" width="10" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-26" value="Job启动投票" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.4688" relative="1" as="geometry">
+            <mxPoint x="534.26" y="916.0000000000002" as="sourcePoint" />
+            <mxPoint x="855.4999999999998" y="916.2" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-28" value="如果投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;启动Job" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="920" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-30" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+          <mxGeometry x="0.4929" relative="1" as="geometry">
+            <mxPoint x="533" y="890.0000000000002" as="sourcePoint" />
+            <mxPoint x="850.5" y="890.1500000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-27" value="查询Job详细信息&#xa;（包含启动投票信息）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.4688" relative="1" as="geometry">
+            <mxPoint x="533.26" y="876" as="sourcePoint" />
+            <mxPoint x="854.4999999999998" y="876.2" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
