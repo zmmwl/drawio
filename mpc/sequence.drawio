@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T09:55:55.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_KbchRcn6r28sCNXTEw5" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T12:35:35.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="udnS7KIJeR1cw7GbWNGa" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1830" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9vfDpCamMeJXF4R310ez-56" value="Job Scheduler" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;isLoopStandard=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="439" y="1930" width="641" height="290" as="geometry" />
+        <mxCell id="9vfDpCamMeJXF4R310ez-56" value="Task Agent" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;isLoopStandard=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1930" width="480" height="290" as="geometry" />
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-32" value="Task Scheduler" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;isLoopStandard=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="439" y="1101" width="641" height="789" as="geometry" />
@@ -371,7 +371,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-57" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="525" y="1980" width="10" height="200" as="geometry" />
+          <mxGeometry x="685" y="1980" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-58" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="847.5" y="1990" width="10" height="20" as="geometry" />
@@ -426,6 +426,26 @@
             <mxPoint x="854.5" y="2056.2" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-68" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="847.5" y="1611" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-69" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+          <mxGeometry x="0.5433" relative="1" as="geometry">
+            <mxPoint x="535.0000000000002" y="1655" as="sourcePoint" />
+            <mxPoint x="852.5" y="1655.15" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-70" value="多方Task启动投票" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.4688" relative="1" as="geometry">
+            <mxPoint x="534.2600000000002" y="1610" as="sourcePoint" />
+            <mxPoint x="855.5" y="1610.1999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-71" value="如果投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置Task启动状态" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="1614" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
