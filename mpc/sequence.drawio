@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:48:29.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="a70aga9DSQCi_Qmt-Bur" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:50:09.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="f4dzS9_yR1AvIj28bHT0" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1525" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,15 +93,18 @@
         <mxCell id="UTqNRsS9b9yTs4x2D8Qa-13" value="目录链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="80" width="105" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-4" value="检查申请是否审批" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=block;startFill=1;" edge="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
+        <mxCell id="9vfDpCamMeJXF4R310ez-4" value="检查申请是否审批" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=block;startFill=1;exitX=0.396;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="UTqNRsS9b9yTs4x2D8Qa-13" source="9vfDpCamMeJXF4R310ez-6">
           <mxGeometry x="0.0526" relative="1" as="geometry">
-            <mxPoint x="50" y="510" as="sourcePoint" />
+            <mxPoint x="60" y="510" as="sourcePoint" />
             <mxPoint x="202" y="510" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
           <mxGeometry x="47.5" y="389" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="UTqNRsS9b9yTs4x2D8Qa-13">
+          <mxGeometry x="47.5" y="510" width="10" height="32" as="geometry" />
         </mxCell>
         <mxCell id="UTqNRsS9b9yTs4x2D8Qa-14" value="隐私计算链码" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="80" width="115" height="690" as="geometry" />
@@ -169,6 +172,20 @@
           <mxGeometry x="-0.8374" relative="1" as="geometry">
             <mxPoint x="175.1199999999999" y="158.8499999999999" as="sourcePoint" />
             <mxPoint x="850" y="159.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-7" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;entryX=0.509;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0029" relative="1" as="geometry">
+            <mxPoint x="1007" y="622.49" as="sourcePoint" />
+            <mxPoint x="853.4450000000002" y="622.49" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-8" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;exitX=0.6;exitY=0.883;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.7656" relative="1" as="geometry">
+            <mxPoint x="349.9999999999998" y="660.0150000000001" as="sourcePoint" />
+            <mxPoint x="1007" y="660.0150000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
