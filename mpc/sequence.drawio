@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T16:16:24.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-NY7Nr6NW_vemZeA5L5r" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T16:18:22.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gcULseZuQ9DRgij8HdvL" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1076" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -446,6 +446,63 @@
         </mxCell>
         <mxCell id="cXjgkMW2TS4Oq5ot-gsW-7" value="投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置Task状态Ready" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="851.5" y="1983" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-19" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="848" y="2135" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="685.5" y="2050" width="10" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-21" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="848" y="2053" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-22" value="查询Running Job的&#xa;Ready Task" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.013;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0618" relative="1" as="geometry">
+            <mxPoint x="695.6299999999999" y="2053.6" as="sourcePoint" />
+            <mxPoint x="855.5" y="2053" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-23" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;exitX=1.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.5433" relative="1" as="geometry">
+            <mxPoint x="695.5099999999998" y="2073" as="sourcePoint" />
+            <mxPoint x="853" y="2073.15" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690.5" y="2067" width="38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cXjgkMW2TS4Oq5ot-gsW-24">
+          <mxGeometry y="21" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-26" value="启动本地&lt;br&gt;MPC进程" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.933;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.058;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cXjgkMW2TS4Oq5ot-gsW-24" source="cXjgkMW2TS4Oq5ot-gsW-25" target="cXjgkMW2TS4Oq5ot-gsW-25">
+          <mxGeometry x="0.1603" y="36" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="240" as="sourcePoint" />
+            <mxPoint x="258" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="28" />
+              <mxPoint x="38" y="60" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-27" value="投票Success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.018;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.938;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="cXjgkMW2TS4Oq5ot-gsW-19">
+          <mxGeometry x="0.0618" relative="1" as="geometry">
+            <mxPoint x="694.8799999999999" y="2137.2000000000003" as="sourcePoint" />
+            <mxPoint x="858" y="2124.9999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-28" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;exitX=1.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.5433" relative="1" as="geometry">
+            <mxPoint x="695.5099999999998" y="2165" as="sourcePoint" />
+            <mxPoint x="853" y="2165.15" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-29" value="投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置Task状态Success" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="2135" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
