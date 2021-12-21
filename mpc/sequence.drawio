@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:50:09.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="f4dzS9_yR1AvIj28bHT0" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:51:16.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kxOVFtsCWdvhkVUJ6_Dm" version="16.0.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1525" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ah19YOpFEOO8Zq_bgBOS-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="380" width="10" height="110" as="geometry" />
+          <mxGeometry x="45" y="380" width="10" height="230" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Job管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="100" height="690" as="geometry" />
@@ -42,12 +42,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-1" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="44" y="449" width="10" height="205" as="geometry" />
+          <mxGeometry x="44" y="449" width="10" height="141" as="geometry" />
         </mxCell>
         <mxCell id="Ah19YOpFEOO8Zq_bgBOS-18" value="触发Job状态变更" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-125" y="450.0000000000001" as="sourcePoint" />
             <mxPoint x="50" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-9" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;exitX=1.012;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0319" relative="1" as="geometry">
+            <mxPoint x="-122.44000000000005" y="590" as="sourcePoint" />
+            <mxPoint x="52" y="590" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="创建Job" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
