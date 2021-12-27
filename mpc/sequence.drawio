@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T06:47:15.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1FvcC9lejMzvfxmGvO8h" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T06:48:45.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qEuT2x0SV1CP65iJwQOF" version="16.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1428" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="828" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,10 +142,7 @@
         <mxCell id="9vfDpCamMeJXF4R310ez-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="UTqNRsS9b9yTs4x2D8Qa-13" vertex="1">
           <mxGeometry x="47.5" y="510" width="10" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="UTqNRsS9b9yTs4x2D8Qa-13" vertex="1">
-          <mxGeometry x="47.5" y="778" width="10" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-29" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" parent="UTqNRsS9b9yTs4x2D8Qa-13" edge="1">
+        <mxCell id="9vfDpCamMeJXF4R310ez-29" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;entryX=0.231;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UTqNRsS9b9yTs4x2D8Qa-13" edge="1" target="5cVZpPxVEdg1oYA6pjIa-2">
           <mxGeometry x="0.5433" relative="1" as="geometry">
             <mxPoint x="-265" y="822" as="sourcePoint" />
             <mxPoint x="52.5" y="822.1500000000001" as="targetPoint" />
@@ -253,26 +250,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9vfDpCamMeJXF4R310ez-23" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="847.5" y="817" width="10" height="14" as="geometry" />
+          <mxGeometry x="1002.5" y="817" width="10" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-26" value="Job Ready投票" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="9vfDpCamMeJXF4R310ez-26" value="Job Ready投票" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.086;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="5cVZpPxVEdg1oYA6pjIa-2">
           <mxGeometry x="0.4688" relative="1" as="geometry">
             <mxPoint x="534.26" y="857.0000000000002" as="sourcePoint" />
             <mxPoint x="855.4999999999998" y="857.2" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-28" value="如果投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置JobReady状态" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="852.5" y="861" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-30" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;" parent="1" edge="1">
+        <mxCell id="9vfDpCamMeJXF4R310ez-30" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;entryX=0.027;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="9vfDpCamMeJXF4R310ez-23">
           <mxGeometry x="0.4929" relative="1" as="geometry">
             <mxPoint x="533" y="831.0000000000002" as="sourcePoint" />
             <mxPoint x="850.5" y="831.1500000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-27" value="查询Job详细信息&#xa;（包含启动投票信息）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="9vfDpCamMeJXF4R310ez-27" value="查询Job详细信息&#xa;（包含启动投票信息）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.06;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="9vfDpCamMeJXF4R310ez-23">
           <mxGeometry x="0.4688" relative="1" as="geometry">
             <mxPoint x="533.26" y="817" as="sourcePoint" />
             <mxPoint x="854.4999999999998" y="817.2" as="targetPoint" />
@@ -562,6 +556,12 @@
         </mxCell>
         <mxCell id="5cVZpPxVEdg1oYA6pjIa-1" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1002.5" y="751" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5cVZpPxVEdg1oYA6pjIa-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1003" y="858" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="9vfDpCamMeJXF4R310ez-28" value="如果投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置JobReady状态" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="865" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
