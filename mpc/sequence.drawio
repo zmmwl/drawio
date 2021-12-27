@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T07:22:47.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AghCBYItUbhvuzMrqRuY" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T10:08:23.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4f_WsRzM_cTw_gWQaLFn" version="16.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2070" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -502,7 +502,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tpqstK-ua6c8ZWBywsC6-5" value="触发Job状态变更" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="tpqstK-ua6c8ZWBywsC6-5" value="查询Job详细信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry x="0.7638" relative="1" as="geometry">
             <mxPoint x="357" y="2142" as="sourcePoint" />
             <mxPoint x="1009" y="2142" as="targetPoint" />
@@ -516,7 +516,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tpqstK-ua6c8ZWBywsC6-7" value="审批通过" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;exitX=1.012;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="tpqstK-ua6c8ZWBywsC6-7" value="查询申请状态" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;exitX=1.012;exitY=0.115;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.8587" relative="1" as="geometry">
             <mxPoint x="177.1199999999999" y="2051" as="sourcePoint" />
             <mxPoint x="849.5" y="2051.15" as="targetPoint" />
