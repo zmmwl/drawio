@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T07:11:45.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="96-36xa6DE4kAeNXO-EX" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T07:17:52.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8s0V-NUJayKudL9srbTF" version="16.0.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1428" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2070" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -480,8 +480,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-29" value="投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置Task状态Success" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1017.5" y="1950" width="130" height="30" as="geometry" />
+        <mxCell id="cXjgkMW2TS4Oq5ot-gsW-29" value="投票收集完毕&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;设置Task状态Success&lt;br&gt;如果全部Task都Success&lt;br&gt;则Job设置success" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1007.5" y="1935" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tpqstK-ua6c8ZWBywsC6-1" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="167" y="2042" width="10" height="230" as="geometry" />
