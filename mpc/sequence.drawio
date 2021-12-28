@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T07:05:52.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="p0Ye-gRDSP7qUFm5VF9e" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T07:17:13.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2oksl_6QTkByqmVNpGXG" version="16.1.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2070" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -286,7 +286,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-37" value="查询Ready/Running的Job&#xa;包含的Tasks" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.027;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="9vfDpCamMeJXF4R310ez-34" edge="1">
+        <mxCell id="9vfDpCamMeJXF4R310ez-37" value="查询Ready/Running的Job" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.027;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="9vfDpCamMeJXF4R310ez-34" edge="1">
           <mxGeometry x="0.4688" relative="1" as="geometry">
             <mxPoint x="535" y="1075" as="sourcePoint" />
             <mxPoint x="1003.1299999999999" y="1073.72" as="targetPoint" />
@@ -320,7 +320,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9vfDpCamMeJXF4R310ez-43" value="查询Task详细信息&#xa;（包含启动投票信息）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.018;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="9vfDpCamMeJXF4R310ez-39" edge="1">
+        <mxCell id="9vfDpCamMeJXF4R310ez-43" value="查询Job包含的所有Task详细信息&#xa;（包含启动投票信息）" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.018;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="9vfDpCamMeJXF4R310ez-39" edge="1">
           <mxGeometry x="0.4688" relative="1" as="geometry">
             <mxPoint x="533.2600000000002" y="1141" as="sourcePoint" />
             <mxPoint x="854.5" y="1141.2" as="targetPoint" />
