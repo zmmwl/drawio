@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T09:00:34.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9X3UCq1ClxghJ7grqdcG" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T09:01:56.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eu3H-DxwdWAzIt1A7_AF" version="16.1.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1800" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -616,6 +616,9 @@
         </mxCell>
         <mxCell id="7aoKcOZFzOGZm6eP0qAl-16" value="&lt;font color=&quot;#666600&quot;&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;5.3.3.2&lt;span&gt;	&lt;/span&gt;Application状态自检与更新&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="714" y="2043" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7aoKcOZFzOGZm6eP0qAl-17" value="&lt;font color=&quot;#666600&quot;&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;5.5.3.8&lt;span&gt;	&lt;/span&gt;查询Job状态信息&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="862" y="2070.25" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
