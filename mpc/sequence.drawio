@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T08:58:28.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VyM21q9ZFdkGk9cbOfhF" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T09:00:34.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9X3UCq1ClxghJ7grqdcG" version="16.1.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1800" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -404,7 +404,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cXjgkMW2TS4Oq5ot-gsW-28" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;entryX=-0.3;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="5cVZpPxVEdg1oYA6pjIa-3" edge="1" source="cXjgkMW2TS4Oq5ot-gsW-20">
-          <mxGeometry x="0.5433" relative="1" as="geometry">
+          <mxGeometry x="-0.7077" relative="1" as="geometry">
             <mxPoint x="695.5099999999998" y="2036" as="sourcePoint" />
             <mxPoint x="853" y="2036.15" as="targetPoint" />
             <mxPoint as="offset" />
@@ -575,7 +575,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7aoKcOZFzOGZm6eP0qAl-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="848" y="2042.5" width="10" height="84.5" as="geometry" />
+          <mxGeometry x="848" y="2042.5" width="10" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="7aoKcOZFzOGZm6eP0qAl-5" value="触发Application状态变更" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.028;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.136;exitY=0.231;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="0.0618" relative="1" as="geometry">
@@ -585,11 +585,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7aoKcOZFzOGZm6eP0qAl-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="996" y="2067" width="10" height="20" as="geometry" />
+          <mxGeometry x="996" y="2060" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7aoKcOZFzOGZm6eP0qAl-7" value="获取Job状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.209;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7aoKcOZFzOGZm6eP0qAl-6">
+        <mxCell id="7aoKcOZFzOGZm6eP0qAl-7" value="获取Job状态" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.053;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7aoKcOZFzOGZm6eP0qAl-6">
           <mxGeometry x="0.0618" relative="1" as="geometry">
-            <mxPoint x="860" y="2069" as="sourcePoint" />
+            <mxPoint x="860" y="2063" as="sourcePoint" />
             <mxPoint x="868.2799999999997" y="2053.561" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -601,7 +601,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7aoKcOZFzOGZm6eP0qAl-9" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;entryX=1.09;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.3;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5cVZpPxVEdg1oYA6pjIa-3" target="7aoKcOZFzOGZm6eP0qAl-4">
+        <mxCell id="7aoKcOZFzOGZm6eP0qAl-9" value="return" style="verticalAlign=bottom;endArrow=none;shadow=0;strokeWidth=1;endFill=0;startArrow=open;startFill=0;dashed=1;dashPattern=1 1;entryX=1.09;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.143;exitY=0.941;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5cVZpPxVEdg1oYA6pjIa-3" target="7aoKcOZFzOGZm6eP0qAl-4">
           <mxGeometry x="0.5433" relative="1" as="geometry">
             <mxPoint x="868" y="2097" as="sourcePoint" />
             <mxPoint x="1010" y="2097" as="targetPoint" />
@@ -613,6 +613,9 @@
         </mxCell>
         <mxCell id="7aoKcOZFzOGZm6eP0qAl-15" value="&lt;font color=&quot;#666600&quot;&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;5.3.3.1&lt;span&gt;	&lt;/span&gt;查询Application审批状态&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="867" y="558" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7aoKcOZFzOGZm6eP0qAl-16" value="&lt;font color=&quot;#666600&quot;&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;5.3.3.2&lt;span&gt;	&lt;/span&gt;Application状态自检与更新&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="714" y="2043" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
