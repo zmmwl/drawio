@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T10:07:08.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="2Fb7CB7am-W7XE6id3s4" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T10:08:00.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="HVA77S-qTlVD08XC3SDs" version="16.2.4" type="github">
   <diagram id="AMjBwCmGvoG6Ac3YdRjd" name="Page-1">
     <mxGraphModel dx="2070" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-25" value="机密计算&lt;br&gt;(可信执行环境)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="1025" y="565" width="120" height="40" as="geometry" />
+          <mxGeometry x="955" y="660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0.875;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-25" parent="1" source="Y4qEVJC5LAISTtddAkst-31">
           <mxGeometry relative="1" as="geometry">
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-27" value="联合分析统计" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="1030" y="660" width="110" height="30" as="geometry" />
+          <mxGeometry x="965" y="750" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-28" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-27" parent="1" source="Y4qEVJC5LAISTtddAkst-31">
           <mxGeometry relative="1" as="geometry">
@@ -40,7 +40,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-29" value="联邦学习" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="1035" y="730" width="100" height="40" as="geometry" />
+          <mxGeometry x="970" y="840" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-30" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0.891;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-29" parent="1" source="Y4qEVJC5LAISTtddAkst-31">
           <mxGeometry relative="1" as="geometry">
@@ -48,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-31" value="计算过程可信" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="791" y="650" width="119" height="32" as="geometry" />
+          <mxGeometry x="796.5" y="740" width="119" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0.925;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-31" parent="1" source="Y4qEVJC5LAISTtddAkst-20">
           <mxGeometry relative="1" as="geometry">
@@ -72,11 +72,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-37" value="任务调度可信" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="791" y="510" width="110" height="30" as="geometry" />
+          <mxGeometry x="796.5" y="585" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-37" parent="1" source="Y4qEVJC5LAISTtddAkst-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="782.5" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-39" value="基于区块链的去中心化调度引擎" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="950" y="585" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-39" parent="1" source="Y4qEVJC5LAISTtddAkst-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
