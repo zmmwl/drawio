@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T10:14:42.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="wQKjirccLFG-XrPjjgyv" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T10:23:12.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Z7QqqSafhdXdbJNEYv3J" version="16.2.4" type="github">
   <diagram id="AMjBwCmGvoG6Ac3YdRjd" name="Page-1">
     <mxGraphModel dx="2070" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-35" value="交易过程可信" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="796.5" y="408" width="110" height="30" as="geometry" />
+          <mxGeometry x="790" y="430" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0.955;exitY=0.091;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-35" parent="1" source="Y4qEVJC5LAISTtddAkst-20">
           <mxGeometry relative="1" as="geometry">
@@ -79,12 +79,44 @@
             <mxPoint x="782.5" y="520" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y4qEVJC5LAISTtddAkst-39" value="基于区块链的去中心化调度引擎" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
-          <mxGeometry x="950" y="585" width="210" height="30" as="geometry" />
+        <mxCell id="Y4qEVJC5LAISTtddAkst-39" value="基于区块链智能合约的&lt;br&gt;去中心化调度引擎" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="975" y="580" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y4qEVJC5LAISTtddAkst-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-39" parent="1" source="Y4qEVJC5LAISTtddAkst-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-41" value="区块链交易平台" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="980" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-41" parent="1" source="Y4qEVJC5LAISTtddAkst-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-43" value="区块链数据目录" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="980" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-44" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-43" parent="1" source="Y4qEVJC5LAISTtddAkst-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="988" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-48" value="计算过程安全性可证明" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="796.5" y="1080" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-49" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0.858;exitY=1.061;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-48" parent="1" source="Y4qEVJC5LAISTtddAkst-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="970" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-50" value="计算结果可信" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="810" y="950" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4qEVJC5LAISTtddAkst-51" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0.89;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Y4qEVJC5LAISTtddAkst-50" parent="1" source="Y4qEVJC5LAISTtddAkst-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="970" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
